@@ -1,7 +1,7 @@
 Package: com.wh0ba.ytminibarx
 Name: ytminibarx
 Depends: mobilesubstrate
-Version: 0.1
+Version: 0.2
 Architecture: iphoneos-arm
 Description: Gives the YouTube mini bar some rounded corners 
 Maintainer: Wh0ba <whappfanr@gmail.com>
