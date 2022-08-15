@@ -1,9 +1,7 @@
 
 @interface YTNGWatchMiniBarView: UIView
-
-
+@property (nonatomic, assign, readwrite) NSInteger watchMiniPlayerLayout;
 @end
-
 
 %hook YTNGWatchMiniBarView
 
