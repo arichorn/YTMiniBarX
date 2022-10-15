@@ -1,13 +1,13 @@
+TARGET := iphone:clang:latest:12.0
+INSTALL_TARGET_PROCESSES = YouTube
+ARCHS = arm64
+PACKAGE_VERSION = 1.0.3
+
 include $(THEOS)/makefiles/common.mk
 
-TARGET = ::7.0
+TWEAK_NAME = YTMiniBarX
 
-TWEAK_NAME = ytminibarx
-$(TWEAK_NAME)_FILES = Tweak.xm
+$(TWEAK_NAME)_FILES = Tweak.x
 $(TWEAK_NAME)_CFLAGS = -fobjc-arc
 
 include $(THEOS_MAKE_PATH)/tweak.mk
-
-
-after-install::
-	install.exec "killall -9 YouTube"
