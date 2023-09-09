@@ -10,6 +10,6 @@
 	%orig;
 	
 	self.clipsToBounds = true;
-	self.layer.cornerRadius = 10;	
+	self.layer.cornerRadius = 0;	
 }
 %end
